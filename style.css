@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  padding: 0 10%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.pic {
+  padding: 20px;
+}
+
+.pic img {
+  width: 250px;
+  height: 350px;
+}
+
+.c1 {
+  padding: 20px;
+}
+
+.c {
+  padding: 10px;
+  padding-left: 0;
+}
+
+.pr {
+  margin-top: 10px;
+}
+
+/* .c p {
+  text-align: center;
+} */
+
+.middle {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.middle a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.icons a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+#menu {
+  display: none;
+}
+
+section {
+  /* border: 2px solid rgb(215, 237, 17); */
+  /* margin-top: 5%;  */
+  height: 100vh;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.sect1 {
+  background-color: lemonchiffon;
+  display: flex;
+}
+
+.sect1 .left,
+.sect1 .right {
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.left p,
+.left h1,
+.left button {
+  margin: 5px 0;
+}
+
+.left h1 {
+  font-size: 40px;
+}
+
+.left button {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  width: 100%;
+}
+
+.sect2 {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.sect2 h3 {
+  text-align: left;
+}
+
+.items {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+article {
+  display: flex;
+  width: 30%;
+  /* width: 40%; */
+}
+
+.a1,
+.a2,
+.a3 {
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  margin: 10px;
+}
+
+/* .a3holder{
+border: 1px solid;
+border-radius: 10px;
+width: auto;
+} */
+
+.word1,
+.word2,
+.word3 {
+  text-align: start;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.d1,
+.d2,
+.d3 {
+  width: 50%;
+  height: 100%;
+}
+
+.d1 img,
+.d2 img,
+.d3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.clothes {
+  display: flex;
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.pr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c1 .pic {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.pr p {
+  border: 2px solid orangered;
+  color: orangered;
+  padding: 0 10px;
+}
+
+.pr div i {
+  color: orangered;
+}
+
+.pic {
+  position: relative;
+}
+
+.pic i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: orangered;
+}
+
+.sect3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.sect3 h3 {
+  text-align: left;
+}
+
+.sect4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.green {
+  display: flex;
+  justify-content: space-around;
+}
+
+.green .right {
+  width: 50%;
+  height: 60vh;
+  position: relative;
+}
+
+.green .right img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+}
+
+.green .left {
+  width: 50%;
+  padding: 10%;
+  padding-right: 0;
+}
+
+.green .left h3 {
+  font-size: 2rem;
+}
+
+.green .left img,
+.green .left h3,
+.green .left p {
+  margin-bottom: 15px;
+}
+
+.green .left img {
+  width: 120px;
+}
+
+footer {
+  width: 100%;
+  /* border: 1px solid; */
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.col1 a {
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (max-width:1700px){
+  header{
+      padding: 12px 3%;
+  }
+
+  header.sticky{
+      padding: 10px 3%;
+  }
+
+  section{
+      padding: 80px 3% 70px;
+  }
+  .home{
+      gap:1 rem;
+  }
+}
+
+@media (max-width:1700px){
+  :root{
+      --big-font:3.3rem;
+      --h2-font:2rem;
+  }
+}
+
+@media (max-width:1410px){
+  .row-text h6{
+      margin-bottom: 5px;
+  }
+  .row-text h3{
+      margin-bottom: 1rem;
+  }
+  .cta-text{
+      margin-left: 55px;
+
+  }
+  .home{
+      height: 90vh;
+  }
+}
+
+@media (max-width:1200px){
+  #menu-icon{
+      display: initial;
+      height: 50px;
+      width: 50px;
+      background: #f7f9fb;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: var(--other-color);
+      font-size: 32px;
+  }
+
+  .navbar{
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      width: 300px;
+      height: 125vh;
+      background: var(--bg-color);
+      flex-direction: column;
+      align-items: center;
+      padding: 130px 30px;
+      transition: all .45s ease;
+  }
+
+  .navbar a{
+      display: block;
+      margin: 1.1rem 0;
+  }
+
+  .navbar.open{
+      right: 0;
+  }
+}
+
+@media (max-width:940px){
+  .home{
+      grid-template-columns: 1fr;
+      text-align: center;
+      height: 117vh;
+
+  }
+
+  .home-img img{
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .home-text{
+      padding-top: 50px;
+  }
+
+  .icons i{
+      margin-right: 15px;
+      margin-left: 5px;
+  }
+}
+
+@media (max-width:580px){
+  :root{
+      --big-font:3rem;
+      --h2-font:1.8rem;
+  }
+
+  .cta-text{
+      margin-left: 30px;
+
+  }
+
+  .cta-text h3{
+      font-size: 2.4rem;
+  }
+
+}
